@@ -33,7 +33,7 @@ Can't use
 Can use - my123$_ (my_name- Valid)
 
 **Camel Casing** - myVar
-
+## Strings
 ### String Concatenation
 ```javascript
     var message="Hello";
