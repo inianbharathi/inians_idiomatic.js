@@ -17,8 +17,30 @@ Boolean=true or False
 
 ```typeof(23);```
 
+## Variables
+``` var yourName=prompt("Enter your name:");```
+
 Prompt is used to get input from the user
 
-```prompt("Enter your name:");```
+### Variables naming conventions
+
+Can't use
+
+1. Keyword - var, function, alert (myvar-valid)
+2. Start with number - 123 (my123-valid)
+3. Spaces - my Name (myName - Valid)
+
+Can use - my123$_ (my_name- Valid)
+
+**Camel Casing** - myVar
+
+### String Concatenation
+```javascript
+    var message="Hello";
+    var name=prompt("Enter your name: ");
+    alert(message +" + name);
+```
+
+
 
 
