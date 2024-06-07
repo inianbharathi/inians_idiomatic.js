@@ -40,7 +40,15 @@ Can use - my123$_ (my_name- Valid)
     var name=prompt("Enter your name: ");
     alert(message +" + name);
 ```
+**Output:** Hello Inian
 
+### String Length
 
+```Javascript
+var tweet=prompt("Enter Tweet: ");
+var tweetLength=tweet.length;
+alert("You have entered "+tweetLength+" Characters, " + "You have "+(140-tweetLength)+ " Characters remaining");
+```
+**Output:** You have entered 283 Characters, You have -143 Characters remaining
 
 
