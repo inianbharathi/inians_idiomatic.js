@@ -75,3 +75,26 @@ alert("You have entered "+tweetLength+" Characters, " + "You have "+(140-tweetLe
 ```Javascript 
 alert(prompt("Enter your tweet:").slice(0,140));
 ```
+### String UpperCase/Lowercase
+
+Syntax **toUpperCase()**;
+**toLowerCase();**
+
+Spec: Change first character of name to upper case rest to lower case
+
+``` Javascript
+var name= prompt("Enter your name:");
+//full name to lower case
+name=name.toLowerCase();
+
+//first character to upper case
+var firstChar=name.slice(0,1);
+firstChar=firstChar.toUpperCase();
+
+// Seperating rest of the name
+var restName= name.slice(1,name.length);
+
+//alert output
+alert("Hello "+ firstChar+restName+"!");
+```
+Output: Hello Inian!
