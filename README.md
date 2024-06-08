@@ -1,4 +1,15 @@
 # Principles of Writing Idiomatic JavaScript 
+## Comment
+### Single line comment
+```Javascript
+//  This is a single line comment
+```
+### Multy line comment
+``` Javascript
+/* This is a multy line comment
+This has more lines*/
+```
+
 ## Alert 
 ### Alert Syntax
 ```window.alert("Hello World");```
@@ -6,14 +17,14 @@
 ``` alert("Hello World");```
 
 ## DataTypes
-### Main types of data 
+### Main types of datatypes 
 Strings = "Hello"
 
 Numbers=123
 
 Boolean=true or False
 
-### Find type of data 
+### Find datatype
 
 ```typeof(23);```
 
@@ -51,4 +62,16 @@ alert("You have entered "+tweetLength+" Characters, " + "You have "+(140-tweetLe
 ```
 **Output:** You have entered 283 Characters, You have -143 Characters remaining
 
+### String Slicing
 
+1. String are always counted from 0.
+
+2. Element in last value of slice parameter doesn't come in output
+
+3. Second slice value - first slice value will give length of slice, which you will get as output
+
+4. To slice last character alone (if length of string is 5, string.slice(5,6))
+
+```Javascript 
+alert(prompt("Enter your tweet:").slice(0,140));
+```
