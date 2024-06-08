@@ -1,4 +1,5 @@
 # Principles of Writing Idiomatic JavaScript 
+## Basic
 ## Comment
 ### Single line comment
 ```Javascript
