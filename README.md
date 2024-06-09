@@ -135,7 +135,7 @@ x= x+y | x+= y
 
 y=x++ // Postfix increment, The value of x is assigned, then incremented
 
-y=x--// Prefix increment, The value is incremented before, then assigned
+y=++x// Prefix increment, The value is incremented before, then assigned
 
 ``` Javascript
 var x = 3;
@@ -143,6 +143,17 @@ var y = x++;
 y += 1;
 ```
 Output: X=4, y=4;
+
+## Functions
+
+### Constructing function
+
+function getMilk(){
+}
+
+### Calling function
+
+getMilk();
 
 
 
