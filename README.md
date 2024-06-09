@@ -122,3 +122,27 @@ var humanAge=((dogAge-2)*4)+21;
 alert("Your dog is "+ humanAge+ " Years old in Human Age!");
 ```
 Output: Your dog is 33 Years old in Human Age!
+
+### Increment and Decrement Operators
+
+x= x+1 | x++
+
+x= x-1 | x--
+
+x= x+2 | x+=2
+
+x= x+y | x+= y
+
+y=x++ // Postfix increment, The value of x is assigned, then incremented
+
+y=x--// Prefix increment, The value is incremented before, then assigned
+
+``` Javascript
+var x = 3;
+var y = x++;
+y += 1;
+```
+Output: X=4, y=4;
+
+
+
