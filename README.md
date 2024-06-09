@@ -99,3 +99,26 @@ var restName= name.slice(1,name.length);
 alert("Hello "+ firstChar+restName+"!");
 ```
 Output: Hello Inian!
+
+## Basic Arthmetic operations
+
+### Modulo
+
+4 % 6 = 2 (Remainder)
+
+evenly divisible is even ( Remainder is 0)
+
+not evenly divisible is odd (Remainder is not 0)
+
+### Dog Age to Human age
+
+**Order of Precedence**
+
+Formula = ((dogAge-2) * 4)+21
+
+```Javascript
+var dogAge= prompt("Enter your dog Age:");
+var humanAge=((dogAge-2)*4)+21;
+alert("Your dog is "+ humanAge+ " Years old in Human Age!");
+```
+Output: Your dog is 33 Years old in Human Age!
