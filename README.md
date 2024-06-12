@@ -151,9 +151,14 @@ Output: X=4, y=4;
 function getMilk(){
 }
 
+
 ### Calling function
 
 getMilk();
 
+### Types of function
+### Input type: Parameters and arguments
+
+function getMilk(5);// 5 is number of bottles
 
 
