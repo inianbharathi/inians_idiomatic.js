@@ -161,4 +161,10 @@ getMilk();
 
 function getMilk(5);// 5 is number of bottles
 
+### Round Values
+
+Math.floor rounds the value to the nearest integer
+
+var numbottles=Math.floor(money/1.5);
+
 
