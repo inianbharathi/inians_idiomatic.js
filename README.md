@@ -171,9 +171,7 @@ var numbottles=Math.floor(money/1.5);
 
 ``` Javascript
 function lifeInWeeks(age) {
-    
-        //Write your code here.
-    
+ 
     var numMonths= (90*12)-(age*12);
     var numWeeks=(90*52)-(age*52);
     var numDays=(90*365)-(age*365);
