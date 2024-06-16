@@ -179,4 +179,14 @@ function lifeInWeeks(age) {
 }
 lifeInWeeks(56);
 ```
+### function that return vaues
 
+```Javascript
+  function getMilk(money,costPerBottle){
+  return money % costPerBottle;
+}
+var change = getMilk(8,3);
+console.log(change);
+```
+
+**Output:** change:2
