@@ -167,4 +167,18 @@ Math.floor rounds the value to the nearest integer
 
 var numbottles=Math.floor(money/1.5);
 
+### Life in weeks 
+
+``` Javascript
+function lifeInWeeks(age) {
+    
+        //Write your code here.
+    
+    var numMonths= (90*12)-(age*12);
+    var numWeeks=(90*52)-(age*52);
+    var numDays=(90*365)-(age*365);
+    console.log("You have "+ numDays + " days, "+ numWeeks+" weeks, "+ "and "+numMonths+ " months left.");
+}
+lifeInWeeks(56);
+```
 
