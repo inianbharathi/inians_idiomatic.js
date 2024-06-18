@@ -157,17 +157,24 @@ function getMilk(){
 getMilk();
 
 ### Types of function
+### Normal type
+```Javascript
+function example(){
+console.log("This is a example");
+}
+example()
+```
 ### Input type: Parameters and arguments
 
 function getMilk(5);// 5 is number of bottles
 
-### Round Values
+**Round Values**
 
 Math.floor rounds the value to the nearest integer
 
 var numbottles=Math.floor(money/1.5);
 
-### Life in weeks 
+### Life in weeks
 
 ``` Javascript
 function lifeInWeeks(age) {
@@ -179,7 +186,7 @@ function lifeInWeeks(age) {
 }
 lifeInWeeks(56);
 ```
-### function that return vaues
+### Return type: function that return vaues
 
 ```Javascript
   function getMilk(money,costPerBottle){
@@ -190,3 +197,16 @@ console.log(change);
 ```
 
 **Output:** change:2
+
+### BMI Calculator
+
+```Javascript
+var weight="102";
+var height="1.83";
+function bmiCalculator(weight,height){
+    var bmi = weight/ Math.pow(height, 2);
+    return bmi;
+    
+}
+```
+
