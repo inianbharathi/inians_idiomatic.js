@@ -209,4 +209,32 @@ function bmiCalculator(weight,height){
     
 }
 ```
+### Conditional Statements
+
+**Random Number Generator**
+
+Math.random()// generates values between 0 to 0.99999..
+
+**Random Dice** 
+
+var n = (Math.random()*6);
+
+**Random Range between 1 - 6**
+
+n= (n*6)+1 // range between 1 to 6
+
+## Love Calculator
+``` Javascript
+prompt("Enter your name:");
+prompt("Enter your Dollies name:");
+var n = Math.random();
+n= Math.floor((n*100)+1);
+if (n>70){
+    alert("Your love score "+n+"% , your love is true!");
+}
+else{
+    alert("Your love score "+n+"% !");    
+}
+```
+
 
