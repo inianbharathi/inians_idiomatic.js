@@ -213,15 +213,23 @@ function bmiCalculator(weight,height){
 
 **Random Number Generator**
 
-Math.random()// generates values between 0 to 0.99999..
+``` Javascript
+Math.random();
+```
+// generates values between 0 to 0.99999..
 
 **Random Dice** 
 
+``` Javascript
 var n = (Math.random()*6);
+```
 
 **Random Range between 1 - 6**
 
-n= (n*6)+1 // range between 1 to 6
+``` Javascript
+n= (n*6)+1;
+```
+// range between 1 to 6
 
 ## Love Calculator
 ``` Javascript
