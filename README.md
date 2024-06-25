@@ -240,9 +240,48 @@ n= Math.floor((n*100)+1);
 if (n>70){
     alert("Your love score "+n+"% , your love is true!");
 }
+
 else{
     alert("Your love score "+n+"% !");    
 }
 ```
+**D1 - till fibonacci solutions**
+
+##  Comparators and Equality
+
+=== : Check if equal to
+
+!== : Check if not equal to
+
+==: Check equal to, but not the data type
+
+
+## Combining Comparators
+
+&& : And
+
+|| : Or
+
+!: Not Equal
+
+**Love Calculator using Comparators**
+``` Javascript
+
+prompt("Enter your name:");
+prompt("Enter your Dollies name:");
+var n = Math.random();
+n= Math.floor((n*100)+1);
+if (n>70){
+    alert("Your love score "+n+"% , your love each other like kanye loves kanye!");
+}
+else if (n>=30 && n<=70)
+{
+    alert(" Your love score is "+n+"%, you guys are okie!")
+}
+else {
+    alert("Your love score "+n+"% !"+ " you love each other like oil and water");    
+}
+```
+
 
 
