@@ -282,6 +282,29 @@ else {
     alert("Your love score "+n+"% !"+ " you love each other like oil and water");    
 }
 ```
+## BMI Calculator Advance if/ else
+
+``` Javascript
+function bmiCalculator (weight, height) {
+    var interpretation;
+    var bmi = Math.round(weight/ Math.pow(height, 2));
+
+if (bmi <18.5){
+    interpretation = "Your BMI is "+ bmi+ ", so you are underweight."
+    return interpretation
+}
+else if (bmi>=18.5 && bmi<=24.9){
+    interpretation = "Your BMI is "+ bmi+ ", so you have a normal weight."
+    return interpretation;
+}
+else{
+    interpretation = "Your BMI is "+ bmi+ ", so you are overweight."
+    return interpretation;
+}
+}
+bmiCalculator(80,1.83);
+```
+
 
 
 
