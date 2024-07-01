@@ -328,6 +328,20 @@ function isLeap(year) {
 }
 isLeap(2024); // Leap year.
 ```
+## Lunch Array function
+
+```Javascript
+function whosPaying(names) {
+
+    var listCount=names.length;
+    var random = Math.floor(listCount*Math.random());
+    var output = names[random] + " is going to buy lunch today!";    
+    return output;
+
+}
+var names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+whosPaying(names);
+```
 
 
 
