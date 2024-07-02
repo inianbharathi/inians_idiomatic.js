@@ -339,9 +339,20 @@ function whosPaying(names) {
     return output;
 
 }
+
 var names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
 whosPaying(names);
 ```
+
+### While loop
+
+while(condition check){
+
+state change;
+
+}
+
+Loop will execute until the condition is false, state change should be inside the condition loop
 
 
 
