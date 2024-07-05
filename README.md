@@ -354,5 +354,27 @@ state change;
 
 Loop will execute until the condition is false, state change should be inside the condition loop
 
+## 99 bottles of beer lyrics with while loop
 
+```Javascript
+var bottles=99;
+function beer(){
+while(bottles>2){
+    console.log(bottles+ " bottles of beer on the wall,"+ bottles +" bottles of beer.Take one down and pass it around," + (bottles-1) +" bottles of beer on the wall.");
+    bottles--;
+   
+}
+     if(bottles===2){
+        console.log(bottles+ " bottles of beer on the wall,"+ bottles +" bottles of beer.Take one down and pass it around,"+ (bottles-1) +" bottle of beer on the wall.");
+        bottles--;
+    }
+    if(bottles===1){
+        console.log(1+ " bottle of beer on the wall,"+ 1 +" bottle of beer.Take one down and pass it around,no more bottles of beer on the wall.");
+        bottles--;
+    }
+    if(bottles===0){
+        console.log("No more bottles of beer on the wall, no more bottles of beer.Go to the store and buy some more, 99 bottles of beer on the wall.");
+    }
+}
+```
 
