@@ -344,7 +344,7 @@ var names = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
 whosPaying(names);
 ```
 
-### While loop
+### While loop - To check if state changes / check continuosly
 
 while(condition check){
 
@@ -377,4 +377,14 @@ while(bottles>2){
     }
 }
 ```
+## For loop - when number of times to iterate is known
+
+```Javascript
+for(i=1; i<2; i++){
+console.log(i);
+}
+```
+
+
+
 
