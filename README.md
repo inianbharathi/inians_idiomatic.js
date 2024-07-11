@@ -385,6 +385,24 @@ console.log(i);
 }
 ```
 
+## Fibonacci Generator
 
+```Javascript
+function fibonacciGenerator (n) {
+
+    var fib=[0,1];
+    if(n<2){
+        return fib.slice(0,n);
+    }
+    for(i=2;i<n;i++){
+        fib.push(fib[i-1]+fib[i-2]);
+    }
+    return fib;
+    
+}
+fibonacciGenerator(3)
+```
+
+**Output**: [0,1,1]
 
 
