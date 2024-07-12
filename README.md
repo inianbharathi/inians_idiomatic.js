@@ -405,4 +405,27 @@ fibonacciGenerator(3)
 
 **Output**: [0,1,1]
 
+### Adding Javascript to website
+
+**Inline Javascript**
+
+```Javascript
+<body onload="alert('hello');">
+```
+
+**Internal Javascript**
+```Javascript
+<script type="text/javascript">
+    alert("Hello");
+</script>
+```
+
+**External Javascript**
+
+```Javascript
+<script src="index.js" charset="utf-8">
+</script>
+```
+
+Note: If we try to manipulate a HTML element before it is defined, we get error. So javascript tag is placed just above the closing body tag
 
