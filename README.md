@@ -441,12 +441,13 @@ element.style.color="red";
 document.querySelector("input").click();
 
 **Properties:** Describes something about the object- eg innerHTML="Good Bye";, style.color="red", firstElementChild;
+
 **Methods** Describes what object can do-clic(),setAttribute();
 
-## GetProperty## 
+## GetProperty ## 
 car.colour; //red
 
-## SetProperty##
+## SetProperty ##
 car.colour="red";
 
 ## CallMethod
