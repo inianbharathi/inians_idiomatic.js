@@ -429,3 +429,34 @@ fibonacciGenerator(3)
 
 Note: If we try to manipulate a HTML element before it is defined, we get error. So javascript tag is placed just above the closing body tag
 
+
+## selecting elements using DOM
+
+var element = document.firstElementChild.lastElementChild;
+
+element.innerHTML="Good Bye";
+
+element.style.color="red";
+
+document.querySelector("input").click();
+
+**Properties:** Describes something about the object- eg innerHTML="Good Bye";, style.color="red", firstElementChild;
+**Methods** Describes what object can do-clic(),setAttribute();
+
+## GetProperty## 
+car.colour; //red
+
+## SetProperty##
+car.colour="red";
+
+## CallMethod
+
+car.drive();
+
+Difference between methods and functions?
+
+Method is always associated with an object.
+
+```Javascript
+document.querySelector("ul").lastElementChild.innerHTML="Inian";
+```
