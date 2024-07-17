@@ -461,3 +461,11 @@ Method is always associated with an object.
 ```Javascript
 document.querySelector("ul").lastElementChild.innerHTML="Inian";
 ```
+
+### DOM Style ###
+
+DOM properties are slightly different to CSS properties
+
+For eg: CSS: font-weight, DOM: fontWeight
+
+
