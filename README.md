@@ -442,7 +442,7 @@ document.querySelector("input").click();
 
 **Properties:** Describes something about the object- eg innerHTML="Good Bye";, style.color="red", firstElementChild;
 
-**Methods** Describes what object can do-clic(),setAttribute();
+**Methods** Describes what object can do-click(),setAttribute();
 
 ## GetProperty ## 
 car.colour; //red
