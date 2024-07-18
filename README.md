@@ -461,11 +461,23 @@ Method is always associated with an object.
 ```Javascript
 document.querySelector("ul").lastElementChild.innerHTML="Inian";
 ```
+## Tag Name ##
 
-### DOM Style ###
+document.getElementsByTagname("li") // output will be an array of list items
+
+**Selecting:** document.getElementsByTagName("li")[2].style.color="red";
+
+
+## DOM Style ##
 
 DOM properties are slightly different to CSS properties
 
-For eg: CSS: font-weight, DOM: fontWeight
+**For eg:** 
+
+CSS: font-weight
+
+DOM style: fontWeight
+
+DOM values is represented inside string "value" ( fontWeight="10px")
 
 
