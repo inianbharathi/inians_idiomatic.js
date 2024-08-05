@@ -430,7 +430,7 @@ fibonacciGenerator(3)
 Note: If we try to manipulate a HTML element before it is defined, we get error. So javascript tag is placed just above the closing body tag
 
 
-## selecting elements using DOM
+## Document Object Model (DOM)
 
 var element = document.firstElementChild.lastElementChild;
 
