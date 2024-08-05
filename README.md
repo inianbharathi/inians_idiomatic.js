@@ -467,6 +467,8 @@ document.getElementsByTagname("li") // output will be an array of list items
 
 **Selecting:** document.getElementsByTagName("li")[2].style.color="red";
 
+Can only get or set by selecting elements in array, even if there is only one item in the array [0]
+
 
 ## DOM Style ##
 
