@@ -472,7 +472,7 @@ Can only get or set by selecting **elements in array**, even if there is only on
 
 ## DOM Style ##
 
-DOM properties are slightly different to CSS properties
+DOM properties are slightly different from CSS properties
 
 **For eg:** 
 
@@ -482,4 +482,13 @@ DOM style: fontWeight
 
 DOM values is represented inside string "value" ( fontWeight="10px")
 
+## Separation of Concerns: keeping style separate ##
+
+Property: classList
+
+```Javascript
+document.queryselector("h1").classList.toggle=".big"
+```
+
+This is to add a class with some style value to the object through classList. Separating behaviour and keeping style with CSS
 
