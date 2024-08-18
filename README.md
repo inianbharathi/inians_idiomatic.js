@@ -482,7 +482,7 @@ DOM style: fontWeight
 
 DOM values is represented inside string "value" ( fontWeight="10px")
 
-## Separation of Concerns: keeping style separate ##
+## Changing CSS style ##
 
 Property: classList
 
@@ -492,3 +492,17 @@ document.queryselector("h1").classList.toggle=".big"
 
 This is to add a class with some style value to the object through classList. Separating behaviour and keeping style with CSS
 
+## Changing text content alone
+
+```Javascript
+document.querrySelector('h1').textContent="Good Bye";
+```
+Note: textContent only changes text, innerHTML changes everything inside the tag like <em>inian</em>
+
+## Changing attributes
+
+```Javascript
+document.querySelector.attributes;
+document.querySelector('a').getAttribute;
+document.querySelector('a').setAttribute("href", "https://www.bing.com");
+```
