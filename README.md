@@ -470,7 +470,7 @@ document.getElementsByTagname("li") // output will be an array of list items
 Can only get or set by selecting **elements in array**, even if there is only one item in the array [0]
 
 
-## DOM Style ##
+## DOM CSS Style ##
 
 DOM properties are slightly different from CSS properties
 
@@ -492,14 +492,14 @@ document.queryselector("h1").classList.toggle=".big"
 
 This is to add a class with some style value to the object through classList. Separating behaviour and keeping style with CSS
 
-## Changing text content alone
+## Changing text content ##
 
 ```Javascript
 document.querrySelector('h1').textContent="Good Bye";
 ```
 Note: textContent only changes text, innerHTML changes everything inside the tag like <em>inian</em>
 
-## Changing attributes
+## Changing attributes ##
 
 ```Javascript
 document.querySelector.attributes;
